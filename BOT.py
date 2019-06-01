@@ -15,7 +15,7 @@ async def help(ctx):
 
 @bot.command()
 async def inscription(ctx):
-    await ctx.send("https://docs.google.com/forms/d/1jcEg6qXygwpeWs0n5ctkTx-GW9wgI0r-P7dNhQrzc54")
+    await ctx.author.send("https://docs.google.com/forms/d/1jcEg6qXygwpeWs0n5ctkTx-GW9wgI0r-P7dNhQrzc54")
 
 @bot.command()
 async def ana(ctx):
