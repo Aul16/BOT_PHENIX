@@ -59,4 +59,4 @@ async def zenyatta(ctx):
     	"https://www.youtube.com/watch?v=vZAkzlPPx8I&")
 
 
-bot.run(os.environ['BOT_TOKEN'])
+bot.run("NTgzOTMzMjI4MDA4NzM0NzIw.XPKA2g.W9Rfaz4m2V2Jz-RcMIB09JqyTGE")
