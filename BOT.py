@@ -6,7 +6,6 @@ bot = commands.Bot(command_prefix="!")
 
 @bot.event
 async def on_ready():
-	await bot.change_presence(game=discord.Game(name='!help to know commands', type=0))
 	print("Connected")
 
 bot.remove_command('help')
