@@ -14,6 +14,10 @@ async def help(ctx):
 	await ctx.author.send("Commandes pour avoir des conseils sur certains héros: ![nom du héros] (exemple: !zenyatta)")
 
 @bot.command()
+async def inscription(ctx):
+    await ctx.send("https://docs.google.com/forms/d/1jcEg6qXygwpeWs0n5ctkTx-GW9wgI0r-P7dNhQrzc54")
+
+@bot.command()
 async def ana(ctx):
     await ctx.send("Conseil(s):  Ne restez pas h24 dans votre viseur ca peux vous encombrer "
     	"la vue et vous faire perdre un team fight, priorisez le tir sans lunette si vous êtes encore débutant \n"
