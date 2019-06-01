@@ -11,7 +11,8 @@ async def on_ready():
 bot.remove_command('help')
 @bot.command()
 async def help(ctx):
-	await ctx.author.send("Commandes pour avoir des conseils sur certains héros: ![nom du héros] (exemple: !zenyatta)")
+	await ctx.author.send("Commandes pour avoir des conseils sur certains héros: ![nom du héros] (exemple: !zenyatta) \n"
+	"Inscription pour la phoenix cup: !inscription")
 
 @bot.command()
 async def inscription(ctx):
